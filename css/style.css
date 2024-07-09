@@ -97,7 +97,7 @@ header nav {
 }
 
 .hero .top .logo-hero {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   width: 70%;
 }
 .hero .top {
@@ -634,6 +634,9 @@ footer .copyright {
 }
 
 @media (max-width: 500px) {
+  .hero .top .arrow {
+    display: none;
+  }
   section.blogdetail h1 {
     font-size: 35px;
   }
